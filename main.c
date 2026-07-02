@@ -30,7 +30,7 @@ int main() {
         } while (nota_actual < 1.0 || nota_actual > 20.0);
 
         notas[i] = nota_actual;
-        suma += nota_actual; // Acumular la suma total
+        suma += nota_actual;
     }
 
     promedio = suma / num_estudiantes;
